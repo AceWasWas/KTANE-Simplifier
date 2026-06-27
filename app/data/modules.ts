@@ -129,7 +129,7 @@ This contraption is like something out of a sketch comedy routine, which might b
 2. Using this button label, use step 2 to determine which button to push.
 3. Repeat until the module has been disarmed.
 
-STEP 1 — Based on the display, read the label of a particular button:
+STEP 1: Based on the display, read the label of a particular button:
 
 YES → top-left button
 FIRST → top-right button
@@ -159,7 +159,7 @@ SEE → bottom-right button
 C → top-right button
 CEE → bottom-right button
 
-STEP 2 — Using the label, push the first button in its list that is present on the module:
+STEP 2: Using the label, push the first button in its list that is present on the module:
 
 "READY": YES, OKAY, WHAT, MIDDLE, LEFT, PRESS, RIGHT, BLANK, READY, NO, FIRST, UHHH, NOTHING, WAIT
 "FIRST": LEFT, OKAY, YES, MIDDLE, NO, RIGHT, NOTHING, UHHH, WAIT, READY, BLANK, WHAT, PRESS, FIRST
@@ -249,14 +249,14 @@ HOW TO INTERPRET:
 4. There is a very long gap before the word repeats.
 
 MORSE CODE CHART:
-A ·—    B —···  C —·—·  D —··   E ·
-F ··—·  G ——·   H ····  I ··    J ·———
-K —·—   L ·—··  M ——    N —·    O ———
-P ·——·  Q ——·—  R ·—·   S ···   T —
-U ··—   V ···—  W ·——   X —··—  Y —·——
-Z ——··
-0 —————  1 ·————  2 ··———  3 ···——  4 ····—
-5 ·····  6 —····  7 ——···  8 ———··  9 ————·
+A ·-    B -···  C -·-·  D -··   E ·
+F ··-·  G --·   H ····  I ··    J ·---
+K -·-   L ·-··  M --    N -·    O ---
+P ·--·  Q --·-  R ·-·   S ···   T -
+U ··-   V ···-  W ·--   X -··-  Y -·--
+Z --··
+0 -----  1 ·----  2 ··---  3 ···--  4 ····-
+5 ·····  6 -····  7 --···  8 ---··  9 ----·
 
 WORD → FREQUENCY TABLE:
 shell  → 3.505 MHz
@@ -303,7 +303,7 @@ No red, no blue, star, LED on      → D
 No red, blue, no star, LED off     → S
 No red, blue, no star, LED on      → D
 No red, blue, star, LED off        → B
-No red, blue, star, LED on         → B (wait — check Venn diagram)
+No red, blue, star, LED on         → B (wait and check Venn diagram)
 Red, no blue, no star, LED off     → C
 Red, no blue, no star, LED on      → C (check Venn diagram)
 Red, no blue, star, LED off        → P

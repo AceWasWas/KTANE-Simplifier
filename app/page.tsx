@@ -9,18 +9,18 @@ export default function Home() {
           KTaNE Simplifier
         </h1>
         <p className="text-lg text-gray-400 mb-1">
-          Keep Talking and Nobody Explodes — Quick Reference
+          Keep Talking and Nobody Explodes: Quick Reference
         </p>
         <p className="text-sm text-gray-500 max-w-xl mx-auto">
           A companion tool for the bomb defuser. Select a module below to view
-          its disarming instructions. Study carefully — one small oversight and
+          its disarming instructions. Study carefully, as one small oversight and
           it could all be over.
         </p>
       </header>
 
       <section>
         <h2 className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-4">
-          Section 1 — Modules
+          Section 1: Modules
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
           {modules.map((mod, i) => (

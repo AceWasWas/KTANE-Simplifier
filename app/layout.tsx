@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "KTaNE Simplifier",
-  description: "Keep Talking and Nobody Explodes — quick-reference module guide",
+  description: "Keep Talking and Nobody Explodes, a quick-reference module guide",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

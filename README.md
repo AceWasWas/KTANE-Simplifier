@@ -50,4 +50,4 @@ app/
 
 ## Based On
 
-KTaNE Bomb Defusal Manual v1 — Verification Code 241
+KTaNE Bomb Defusal Manual v1, Verification Code 241
