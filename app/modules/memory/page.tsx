@@ -204,10 +204,19 @@ function MemorySolver() {
             </div>
 
             {/* Right strip */}
-            <div className="w-6 bg-gray-800 rounded flex flex-col items-center justify-evenly py-3">
-              {[0, 1, 2].map((j) => (
-                <div key={j} className="w-3.5 h-2.5 bg-gray-600 rounded-sm" />
-              ))}
+            <div className="w-6 bg-gray-800 rounded flex flex-col items-center justify-evenly py-2">
+              {[0, 1, 2, 3, 4].map((j) => {
+                const stageIndex = 4 - j;
+                const lit = stageIndex < 4 ? history[stageIndex] !== null : complete;
+                return (
+                  <div
+                    key={j}
+                    className={`w-3.5 h-2.5 rounded-sm transition-colors ${
+                      lit ? "bg-green-400" : "bg-gray-600"
+                    }`}
+                  />
+                );
+              })}
             </div>
           </div>
         </div>
